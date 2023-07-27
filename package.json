@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "trejgun@gemunion.io",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/framework"
+  },
+  "dependencies": {
+    "@nestjs/axios": "3.0.0",
+    "@nestjs/common": "10.1.1",
+    "@nestjs/config": "3.0.0",
+    "@nestjs/core": "10.1.1",
+    "@nestjs/jwt": "10.1.0",
+    "@nestjs/microservices": "10.1.1",
+    "@nestjs/passport": "10.0.0",
+    "@nestjs/platform-express": "10.1.1",
+    "@nestjs/schedule": "3.0.1",
+    "@nestjs/swagger": "7.1.2",
+    "@nestjs/terminus": "10.0.1",
+    "@nestjs/typeorm": "10.0.0",
+    "@nestjs/websockets": "10.1.1"
+  },
+  "devDependencies": {
+    "tsc-watch": "6.0.4",
+    "typescript": "5.1.6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@framework/admin-api",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/framework"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc-watch --onSuccess \"node .\" --onFailure \"echo Compilation Failed\""
+  },
+  "title": "Gemunion Framework - Admin API",
+  "version": "2.0.0"
+}
